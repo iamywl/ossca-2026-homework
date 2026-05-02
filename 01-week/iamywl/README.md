@@ -179,8 +179,8 @@ ssh admin@<vm-ip>
 VM 기본 이미지에는 Go가 없어서 다음 패키지를 설치했다.
 
 ```bash
-tart exec ossca-ebpf sudo apt-get update
-tart exec ossca-ebpf sudo apt-get install -y golang-go make curl procps iproute2
+tart exec ossca-ebpf-work sudo apt-get update
+tart exec ossca-ebpf-work sudo apt-get install -y golang-go make curl procps iproute2
 ```
 
 설치 후 Go 버전:
